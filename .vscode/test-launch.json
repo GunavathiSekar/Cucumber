@@ -1,0 +1,22 @@
+{
+    "run": [
+        {
+            "name": "study",
+            "projectName": "study",
+            "workingDirectory": "d:\\lavanya\\study",
+            "args": [],
+            "vmargs": [],
+            "preLaunchTask": ""
+        }
+    ],
+    "debug": [
+        {
+            "name": "study",
+            "projectName": "study",
+            "workingDirectory": "d:\\lavanya\\study",
+            "args": [],
+            "vmargs": [],
+            "preLaunchTask": ""
+        }
+    ]
+}

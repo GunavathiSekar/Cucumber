@@ -1,0 +1,392 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": ": Test the Gmail login",
+        "description": "",
+        "id": "sum-test;:-test-the-gmail-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 110896345,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "print number1 as \u002712\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.i_fill_in_number1_as_(long)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139330,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print number2 as \u002713\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.i_fill_in_number2_as_(long)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3011454,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i sum \u002725\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 7
+                }
+              ],
+              "location": "Basicoperations.i_sum_(long)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23636,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should display output",
+            "match": {
+              "location": "Basicoperations.it_should_display_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@calc"
+          },
+          {
+            "line": 3,
+            "name": "@sum"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": ": Test the Gmail login",
+        "description": "",
+        "id": "sum-test;:-test-the-gmail-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 130000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "print number1 as \u002714\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.i_fill_in_number1_as_(long)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111651,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "print number2 as \u002716\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.i_fill_in_number2_as_(long)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343348,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i sum \u002730\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30",
+                  "offset": 7
+                }
+              ],
+              "location": "Basicoperations.i_sum_(long)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26124,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "it should display output",
+            "match": {
+              "location": "Basicoperations.it_should_display_the_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@calc"
+          },
+          {
+            "line": 3,
+            "name": "@sum"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": ": Multiply Test",
+        "description": "",
+        "id": "sum-test;:-multiply-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 182560,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter number1 as \u002712\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.enter_number1_as_(long)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151148,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter number2 as \u002713\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "13",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.enter_number2_as_(long)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175096,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i multiply \u0027156\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "156",
+                  "offset": 12
+                }
+              ],
+              "location": "Basicoperations.i_multiply_(long)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "display the results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@multiply"
+          },
+          {
+            "line": 1,
+            "name": "@calc"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": ": Multiply Test",
+        "description": "",
+        "id": "sum-test;:-multiply-test;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 144928,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter number1 as \u002714\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "14",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.enter_number1_as_(long)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101698,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "enter number2 as \u002716\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 18
+                }
+              ],
+              "location": "Basicoperations.enter_number2_as_(long)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123158,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "i multiply \u0027224\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "224",
+                  "offset": 12
+                }
+              ],
+              "location": "Basicoperations.i_multiply_(long)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "display the results",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@multiply"
+          },
+          {
+            "line": 1,
+            "name": "@calc"
+          }
+        ]
+      }
+    ],
+    "name": "Sum Test",
+    "description": "",
+    "id": "sum-test",
+    "keyword": "Feature",
+    "uri": "TestdataSum.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@calc"
+      }
+    ]
+  }
+]
